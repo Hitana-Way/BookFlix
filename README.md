@@ -19,3 +19,18 @@
 - **💬 Comentários**  
   Participe da comunidade deixando comentários e opiniões sobre os livros, e veja o que outros leitores estão dizendo.
 
+
+##  Equipe 👥 
+
+- **Clara Azevedo**  
+- **Gabriel Silva**  
+- **Hitana Rodrigues** 
+- **José Fernando**  
+- **Samuel Nascimento**
+  
+
+## 🎨 Design do Projeto
+
+- [Veja o design no Figma](https://www.figma.com/design/TSskTFBmfwHIbeHiqaGXJe/Projeto-Proz---Tema-BookFlix)
+
+
