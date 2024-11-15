@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>catalogo</title>
+    <title>Catálogo</title>
 </head>
+
 <body>
 
     <header>
@@ -21,40 +23,40 @@
     </header>
 
     <main>
+
         <section class="buscar">
             <input type="text" placeholder="O que você está procurando?" aria-label="Buscar livros">
             <button type="submit">
-                <img src="/imgs/buscar.png"  width="40" height="40" alt="Ícone de busca">
+                <img src="/imgs/buscar.png" width="40" height="40" alt="Ícone de busca">
             </button>
         </section>
-    
 
-    <nav class="menu">
-        <ul>
-            <li><a href="/catalogo/catalogo.html">Catálogo</a></li>
-            <li><a href="/principais-autores/principais-autores.html">Principais Autores</a></li>
-            <li><a href="/dicas-de-livros/dicas-de-livros.html">Dicas de Livros</a></li>
-            <li><a href="#favoritos">Favoritos</a></li>
-            <li><a href="#opiniao-dos-leitores">Opinião dos Leitores</a></li>
-        </ul>
+        <nav class="menu">
+            <ul>
+                <li><a href="/catalogo/catalogo.html">Catálogo</a></li>
+                <li><a href="/principais-autores/principais-autores.html">Principais Autores</a></li>
+                <li><a href="/dicas-de-livros/dicas-de-livros.html">Dicas de Livros</a></li>
+                <li><a href="#favoritos">Favoritos</a></li>
+                <li><a href="#opiniao-dos-leitores">Opinião dos Leitores</a></li>
+            </ul>
+        </nav>
 
-        <div class="sort">
-            <label for="sort">Ordenar por:</label>
-            <select id="sort" name="sort">
+        <div class="Classificar ">
+            <label for="classificar">Ordenar por:</label>
+            <select id="classificar" name="classificar">
                 <option value="relevancia">Relevância</option>
                 <option value="nome">Nome</option>
                 <option value="autor">Autor</option>
-                
             </select>
         </div>
-    </nav>
-</main>
- 
-    <aside class="filters">
+
+    </main>
+
+    <aside class="Filtro">
         <h3>Autor</h3>
- 
+
         <h3>Editora</h3>
- 
+
         <h3>Ano de Publicação</h3>
         <ul>
             <li><input type="checkbox" id="2024"> <label for="2024">2024</label></li>
@@ -63,36 +65,70 @@
             <li><input type="checkbox" id="2021"> <label for="2021">2021</label></li>
             <li><input type="checkbox" id="2020"> <label for="2020">2020</label></li>
         </ul>
+
         <h3>Gênero</h3>
- 
+
         <h3>Formato</h3>
- 
+
     </aside>
 
-    <!-- Lista de livros -->
-    <main class="book-list">
-        <div class="book">
-            <img src="o-pequeno-principe.jpg" alt="O Pequeno Príncipe">
-            <h4>O Pequeno Príncipe</h4>
-            <p>Antoine de Saint-Exupéry</p>
-            <div class="book-info">
-                <span>Audiobook</span>
-                <span>Livro</span>
+ 
+    <section id="catalogo-livros">
+
+        <div class="livro">
+            <img src="/imgs/PequenoPrincipe.png" width="123" height="200" alt="Pequeno Principe">
+            <h4>O Pequeno Principe</h4>
+
+            <div class="botoes-livro">
+                <div class="botao-livro">
+                    <a href="x">
+                        <img src="/imgs/audiobook.png" width="30" height="30" alt="icone audiobook">
+                        <p>Audiobook</p>
+                    </a>
+                </div>
+                <div class="botao-livro">
+                    <a href="x">
+                        <img src="/imgs/book.png" width="30" height="30" alt="icone livro">
+                        <p>Leia</p>
+                    </a>
+                </div>
+                <div class="botao-livro">
+                    <a href="x">
+                        <img src="/imgs/baixar.png" width="30" height="30" alt="icone baixar">
+                        <p>Baixar</p>
+                    </a>
+                </div>
             </div>
-        </div>
- 
-        <div class="book">
-            <img src="mais-esperto-que-o-diabo.jpg" alt="Mais esperto que o Diabo">
-            <h4>Mais esperto que o Diabo</h4>
-            <p>Napoleon Hill</p>
-            <div class="book-info">
-                <span>Audiobook</span>
-                <span>Livro</span>
-            </div>
-        </div>
- 
-    </main>
- 
+        
+            <div class="livro">
+                <img src="/imgs/mais_esperto.jpg" width="123" height="200" alt="Mais Esperto que o Diabo">
+                <h4>Mais Esperto que o Diabo</h4>
+    
+                <div class="botoes-livro">
+                    <div class="botao-livro">
+                        <a href="x">
+                            <img src="/imgs/audiobook.png" width="30" height="30" alt="icone audiobook">
+                            <p>Audiobook</p>
+                        </a>
+                    </div>
+                    <div class="botao-livro">
+                        <a href="x">
+                            <img src="/imgs/book.png" width="30" height="30" alt="icone livro">
+                            <p>Leia</p>
+                        </a>
+                    </div>
+                    <div class="botao-livro">
+                        <a href="x">
+                            <img src="/imgs/baixar.png" width="30" height="30" alt="icone baixar">
+                            <p>Baixar</p>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                
+
     <footer>
         <div class="container">
             <ul>
@@ -115,6 +151,7 @@
                     </ul>
                 </li>
             </ul>
+
             <div class="redes-sociais">
                 <h4>Redes Sociais</h4>
                 <a href="#"><i class="fab fa-whatsapp"></i></a>
@@ -122,8 +159,11 @@
                 <a href="#"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
             </div>
+
             <p>Desenvolvido como parte do projeto Proz-Talento Cloud.</p>
         </div>
     </footer>
+
 </body>
+
 </html>
