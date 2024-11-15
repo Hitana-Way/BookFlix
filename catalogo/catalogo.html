@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>catalogo</title>
+</head>
+<body>
+
+    <header>
+        <img src="/imgs/BookFlix_logo.png" width="300" height="40" alt="bookflix-logo">
+        <nav>
+            <ul>
+                <li><a href="/inicio/inicio.html">Início</a></li>
+                <li><a href="/sobre/sobre.html">Sobre</a></li>
+                <li><a href="/catalogo/catalogo.html">Biblioteca</a></li>
+                <li><a href="/login/login.html"><i class="fas fa-user"></i> Entre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="buscar">
+            <input type="text" placeholder="O que você está procurando?" aria-label="Buscar livros">
+            <button type="submit">
+                <img src="/imgs/buscar.png"  width="40" height="40" alt="Ícone de busca">
+            </button>
+        </section>
+    
+
+    <nav class="menu">
+        <ul>
+            <li><a href="/catalogo/catalogo.html">Catálogo</a></li>
+            <li><a href="/principais-autores/principais-autores.html">Principais Autores</a></li>
+            <li><a href="/dicas-de-livros/dicas-de-livros.html">Dicas de Livros</a></li>
+            <li><a href="#favoritos">Favoritos</a></li>
+            <li><a href="#opiniao-dos-leitores">Opinião dos Leitores</a></li>
+        </ul>
+
+        <div class="sort">
+            <label for="sort">Ordenar por:</label>
+            <select id="sort" name="sort">
+                <option value="relevancia">Relevância</option>
+                <option value="nome">Nome</option>
+                <option value="autor">Autor</option>
+                
+            </select>
+        </div>
+    </nav>
+</main>
+    <!-- Filtros de pesquisa -->
+    <aside class="filters">
+        <h3>Autor</h3>
+        <!-- Filtros de autor -->
+        <h3>Editora</h3>
+        <!-- Filtros de editora -->
+        <h3>Ano de Publicação</h3>
+        <ul>
+            <li><input type="checkbox" id="2024"> <label for="2024">2024</label></li>
+            <li><input type="checkbox" id="2023"> <label for="2023">2023</label></li>
+            <li><input type="checkbox" id="2022"> <label for="2022">2022</label></li>
+            <li><input type="checkbox" id="2021"> <label for="2021">2021</label></li>
+            <li><input type="checkbox" id="2020"> <label for="2020">2020</label></li>
+        </ul>
+        <h3>Gênero</h3>
+        <!-- Filtros de gênero -->
+        <h3>Formato</h3>
+        <!-- Filtros de formato -->
+    </aside>
+
+    <!-- Lista de livros -->
+    <main class="book-list">
+        <div class="book">
+            <img src="o-pequeno-principe.jpg" alt="O Pequeno Príncipe">
+            <h4>O Pequeno Príncipe</h4>
+            <p>Antoine de Saint-Exupéry</p>
+            <div class="book-info">
+                <span>Audiobook</span>
+                <span>Livro</span>
+            </div>
+        </div>
+        <!-- Repita o bloco acima para cada livro -->
+        <div class="book">
+            <img src="mais-esperto-que-o-diabo.jpg" alt="Mais esperto que o Diabo">
+            <h4>Mais esperto que o Diabo</h4>
+            <p>Napoleon Hill</p>
+            <div class="book-info">
+                <span>Audiobook</span>
+                <span>Livro</span>
+            </div>
+        </div>
+        <!-- Adicione mais livros conforme necessário -->
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Programa Talento Cloud</p>
+    </footer>
+</body>
+</html>
