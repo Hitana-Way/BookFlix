@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Informações do Livro</title>
+</head>
+
+<body>
+    <header>
+        <img src="/imgs/BookFlix_logo.png" width="300" height="40" alt="bookflix-logo">
+        <nav>
+            <ul>
+                <li><a href="/inicio/inicio.html">Início</a></li>
+                <li><a href="/sobre/sobre.html">Sobre</a></li>
+                <li><a href="/catalogo/catalogo.html">Biblioteca</a></li>
+                <li><a href="/login/login.html"><i class="fas fa-user"></i> Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="buscar">
+            <input type="text" placeholder="O que você está procurando?" aria-label="Buscar livros">
+            <button type="submit">
+                <img src="/imgs/buscar.png" width="40" height="40" alt="Ícone de busca">
+            </button>
+        </section>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="/catalogo/catalogo.html">Catálogo</a></li>
+                <li><a href="/principais-autores/principais-autores.html">Principais Autores</a></li>
+                <li><a href="/dicas-de-livros/dicas-de-livros.html">Dicas de Livros</a></li>
+                <li><a href="#favoritos">Favoritos</a></li>
+                <li><a href="#opiniao-dos-leitores">Opinião dos Leitores</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div class="livro">
+                <img src="/imgs/PequenoPrincipe.png" with="300" height="400" alt="Capa O Pequeno Príncipe" class="capa">
+                <div class="informacoes">                    
+                    <div class="acoes">
+                        <button class="Favoritar"><img src="/imgs/logo_coracao.png" with="20" height="20" alt="Favoritar"></button>    
+                    </div>
+                    <span><h2><strong>O Pequeno Príncipe</strong></h2></span>
+                    <p>Edição Português por Antoine de Saint-Exupéry (Autor, ilustrador), Angelo das Neves (tradutor).</p>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                        <span>4.0</span>
+                        <span style="margin-left: 10px;">Avaliações: 549</span>
+                        <span style="margin-left: 10px;">Comentários: 20</span>
+                    </div>
+                </div>
+                <p style="text-align: justify;">O Pequeno Príncipe foi publicado em 1943 e é uma das obras mais traduzidas e lidas do mundo. Escrito
+                    por Antoine de Saint-Exupéry, o livro mistura elementos de fantasia e filosofia, explorando temas
+                    como a amizade, o amor e a importância de ver com o coração. Originalmente escrito em francês, a
+                    história foi inspirada pelas experiências do autor como piloto e suas reflexões sobre a natureza
+                    humana e a infância. A obra continua sendo apreciada por leitores de todas as idades, tocando
+                    gerações com suas mensagens profundas e atemporais.</p>
+                <div class="acoes">
+                    <button>Leia online <i class="fas fa-book"></i></button>
+                    <button>Audiobook <i class="fas fa-headphones"></i></button>
+                    <button>Baixar <i class="fas fa-download"></i></button>
+                    <button>Comentar <i class="fas fa-comment"></i></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li>Sobre o Bookflix
+                    <ul>
+                        <li><a href="#">Nossa Missão</a></li>
+                        <li><a href="#">Como Funciona</a></li>
+                    </ul>
+                </li>
+                <li>Ajuda
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                </li>
+                <li>Políticas e Termos
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="redes-sociais">
+                <h4>Redes Sociais</h4>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+
+            <p>Desenvolvido como parte do projeto Proz-Talento Cloud.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
