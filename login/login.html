@@ -32,24 +32,24 @@
 
             <div class="cadastro">
                 <h2>Criar uma conta</h2>
-                <form>
+                <form action="">
                     <div class="input">
                         <img src="/imgs/logo_userblack.png" width="20" height="20" alt="Ícone de usuário">
-                        <label for="nome-completo">Nome Completo:</label>
-                        <input type="text" id="nome-completo" placeholder="Nome">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
                     </div>
-
+                
                     <div class="input">
                         <img src="/imgs/logo_email.png" width="20" height="20" alt="Ícone de e-mail">
                         <label for="email">E-mail:</label>
-                        <input type="email" id="email" placeholder="E-mail">
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
                     </div>
-
+                
                     <div class="input">
                         <img src="/imgs/logo_cadeado.png" width="18" height="20" alt="Ícone de cadeado">
                         <label for="senha">Senha:</label>
-                        <input type="password" id="senha" placeholder="Senha">
-                    </div>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                    </div>              
 
                     <button class="btn-log" type="submit">Inscreva-se</button>
                 </form>
