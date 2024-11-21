@@ -4,79 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Início</title>
 </head>
 <body>
     <header>
-        <img src="/imgs/logo_book.png" width="120" height="100" alt="icone=bookflix">
+        <div class="logo">
+            <img src="/imgs/logo_book.png" width="120" height="100" alt="icone-bookflix">
+        </div>
         <nav>
             <ul>
-                <li><a href="inicio.html">Início</a></li>
+                <li><a href="inicio.html" class="active">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="catalogo.html">Biblioteca</a></li>
                 <li>
-                    <button class="botao-iniciar" onclick="window.location.href='login.html'">Comece agora</button>
+                    <button class="botao-iniciar" onclick="window.location.href='login.html'">Comece agora!</button>
                 </li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <h1><b>Descubra todas as formas de leitura</b></h1>
-        <h2>Agora você vai ter tempo para suas <br>histórias favoritas. <br>Na Bookflix você vai encontrar seus <br>livros preferidos para ler ou ouvir. <br>Tudo em um só lugar.</h2>
+ 
+  
+<main>
+        <section id="apresentacao">
+            <h1><b>Descubra todas as formas de leitura</b></h1>
+            <h2>Agora você vai ter tempo para suas <br>histórias favoritas. <br>Na BookFlix você vai encontrar seus <br>livros preferidos para ler ou ouvir. <br>Tudo em um só lugar.</h2>
+        </section>
     
-    <section id="BookFlix_img">
-        <img src="/imgs/BookFlix_logo.png" width="400" height="50" alt="Img_About">
-    </section>
-
+        <section id="logo">
+            <img src="/imgs/BookFlix_logo.png" alt="Logo BookFlix">
+        </section>
+    
         <section id="destaques">
             <h2><b>Destaques</b></h2>
             <div class="livros">
                 <div class="livro">
                     <img src="/imgs/poder_mente.jpg" width="200" height="300" alt="O Poder da Mente">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+        
+                <div class="livro">
                     <img src="/imgs/mais_esperto.jpg" width="200" height="300" alt="Mais Esperto que o Diabo">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+        
+                <div class="livro">
                     <img src="/imgs/rei_do_inverno.jpg" width="200" height="300" alt="O Rei do Inverno">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+        
+                <div class="livro">
                     <img src="/imgs/100_anos_solidao.jpeg" width="200" height="300" alt="Cem Anos de Solidão">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+        
+                <div class="livro">
                     <img src="/imgs/hobbit.jpg" width="200" height="300" alt="O Hobbit">
-                    <img src="/imgs/quarto_despejo.jpg" width="200" height="300" alt="Quarto do Despejo">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+        
+                <div class="livro">
+                    <img src="/imgs/quarto_despejo.jpg" width="200" height="300" alt="Quarto de Despejo">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
         </section>
-    </main>
-
+</main>
 
     <footer>
-        <div class="container">
-            <ul>
-                <li>Sobre o Bookflix
-                    <ul>
-                        <li><a href="#">Nossa Missão</a></li>
-                        <li><a href="#">Como Funciona</a></li>
-                    </ul>
-                </li>
-                <li>Ajuda
-                    <ul>
-                        <li><a href="#">Central de Ajuda</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
-                    </ul>
-                </li>
-                <li>Políticas e Termos
-                    <ul>
-                        <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Termos de Uso</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="redes-sociais">
-                <h4>Redes Sociais</h4>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="https://github.com/Hitana-Way/BookFlix"><i class="fab fa-github"></i></a>
+        <div class="footer-bloco">
+
+            <div class="footer-coluna">
+                <h4>Sobre o Bookflix</h4>
+                <ul>
+                    <li><a href="#">Nossa Missão</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                </ul>
             </div>
+    
+            <div class="footer-coluna">
+                <h4>Ajuda</h4>
+                <ul>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-coluna">
+                <h4>Políticas e Termos</h4>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+
+    
+            <div class="footer-coluna">
+                <h4>Redes Sociais</h4>
+                <div class="redes-sociais">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Hitana-Way/BookFlix"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-footer">
             <p>Desenvolvido como parte do projeto Proz-Talento Cloud.</p>
         </div>
+
     </footer>
+    
+    
 
 </body>
 </html>
