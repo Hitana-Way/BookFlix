@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Principais Autores</title>
 </head>
 
 <body>
 
     <header>
-        <img src="/imgs/BookFlix_logo.png" width="300" height="40" alt="Logo do Bookflix">
+        <div class="logo">
+            <img src="/imgs/BookFlix_logo.png" width="300" height="40" alt="bookflix-logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="inicio.html">Início</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sobre.html" class="active">Sobre</a></li>
                 <li><a href="catalogo.html">Biblioteca</a></li>
-                <li><a href="login.html"><i class="fas fa-user"></i> Entre</a></li>
+                <li><a href="login.html"><i class="fas fa-user"></i> Entrar</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +30,7 @@
         <section class="buscar">
             <input type="text" placeholder="O que você está procurando?" aria-label="Buscar livros">
             <button type="submit">
-                <img src="/imgs/buscar.png" width="40" height="40" alt="Ícone de busca">
+                <img src="/imgs/buscar.png" width="20" height="20" alt="Ícone de busca">
             </button>
         </section>
 
@@ -116,38 +119,48 @@
     </main>
 
     <footer>
-        <div class="container">
-            <ul>
-                <li>Sobre o Bookflix
-                    <ul>
-                        <li><a href="#">Nossa Missão</a></li>
-                        <li><a href="#">Como Funciona</a></li>
-                    </ul>
-                </li>
-                <li>Ajuda
-                    <ul>
-                        <li><a href="#">Central de Ajuda</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
-                    </ul>
-                </li>
-                <li>Políticas e Termos
-                    <ul>
-                        <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Termos de Uso</a></li>
-                    </ul>
-                </li>
-            </ul>
+        <div class="footer-bloco">
 
-            <div class="redes-sociais">
-                <h4>Redes Sociais</h4>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="https://github.com/Hitana-Way/BookFlix"><i class="fab fa-github"></i></a>
+            <div class="footer-coluna">
+                <h4>Sobre o Bookflix</h4>
+                <ul>
+                    <li><a href="#">Nossa Missão</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-coluna">
+                <h4>Ajuda</h4>
+                <ul>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-coluna">
+                <h4>Políticas e Termos</h4>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
             </div>
 
+    
+            <div class="footer-coluna">
+                <h4>Redes Sociais</h4>
+                <div class="redes-sociais">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Hitana-Way/BookFlix"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-footer">
             <p>Desenvolvido como parte do projeto Proz-Talento Cloud.</p>
         </div>
+
     </footer>
 
 </body>
