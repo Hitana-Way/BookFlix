@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins&display=swap');
+
+/*parte geral da pagina*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Para colocar o corpo da pagina todo de uma unica cor, e na mesma fonte*/
+body {
+    background-color: #DEDDDD   ;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/*Parte do cabeçado na pagina*/
+header {
+    background-color: #DEDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px; 
+    box-shadow: 0px 0px 1px 1px #D96C4E;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    align-items: flex-start;
+    gap: 7rem  ;
+    margin: 2rem;
+}
+nav ul a { 
+    color: #2a2a2a;
+    font-weight:600;
+    text-decoration: none;
+}
+
+nav ul :hover{ /*quando passa o mouse por cima ele fica diferent*/
+    text-decoration:underline;
+    text-decoration-color: #7D090B;
+    text-decoration-thickness: 3px; 
+}
+
+
+/*parte do meio Main texto*/
+
+#apresentacao {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 3rem;
+}
+
+#apresentacao h1 {
+    font-size: 25px;
+    text-align: end;
+    margin-right: 20px; 
+    font-weight:400;
+}
+#apresentacao strong {
+    font-size: 30px;
+
+}
+/*parte do meio Main img*/
+.logo-bookflix {
+    align-items: flex-start; 
+
+}
+
+
+/*Parte Destaque Pagina*/
+
+
+#destaques h2 {
+    margin: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #363636;
+}
+
+.livros {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.livro {
+    width: 150px;
+    text-align: center;
+}
+
+.livro img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.estrelas {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.estrelas i {
+    color: #2a2a2a;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/*rodapé, unico em todo o site*/
+footer {
+    background: linear-gradient(90deg, #733929, #D96C4E);
+    color: white;
+    padding: 20px 20px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+.footer-bloco {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content:space-around;
+    max-width: 1300px;
+    margin-inline: auto;   
+}
+
+
+.footer-coluna h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+
+.footer-coluna ul li {
+    margin-bottom: 5px;
+}
+
+.footer-coluna ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-coluna ul li a:hover {
+    text-decoration:underline;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;  
+}
+
+.redes-sociais a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover {
+    color: #140e64;  
+}
+
+.footer-footer {
+    text-align:center;
+    font-size: 14px;
+    margin: 20px;
+}
