@@ -1,8 +1,10 @@
+
 .titulo-autores {
     text-align: center; /* Centraliza o texto dentro do h2 */
     padding: 20px; /* Adiciona espaçamento interno */
     margin: 0 auto; /* Garante centralização */
-    background-color: #f9f9f9;
+    background-color: #DEDDDD;
+    
   }
 
 /* Geral da seção */
@@ -12,7 +14,8 @@
     gap: 20px; /* Espaço entre os cartões */
     justify-content: center; /* Centraliza os itens */
     padding: 20px;
-    background-color: #f9f9f9;
+    padding-bottom: 40px;
+    background-color: #DEDDDD;
   }
   
   /* Estilo de cada autor */
@@ -29,7 +32,7 @@
   }
   
   .autor:hover {
-    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.05); 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
