@@ -24,7 +24,7 @@ header {
     color: #7D090B;
     font-weight: 500;
     margin: 20px;
-    margin-left: 100px;
+    padding-left: 100px;
     text-shadow: 3px 3px 5px rgba(83, 0, 0, 0.315);
 }
 
@@ -61,9 +61,14 @@ header {
 /*aqui estou atualizando pra telas pequenas*/
 @media (max-width: 834px) {
     #navbar ul {
+        
         flex-direction: column;
         align-items: center;
         gap: 35px;
         font-size: 20px;
+    }
+    .logo h1 {
+        padding: 0px;
+        font-size: 150%;
     }
 }
