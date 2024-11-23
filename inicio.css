@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins&display=swap');
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
 
 /*parte geral da pagina*/
 * { 
@@ -6,11 +7,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Atualizar a img de fundo depois, a img atual não fica boa*/
+ body {
+    background-image: url();  
+    background-size: cover; 
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    margin: 0;  
+    height: 100vh;
+
+ }
+
+
+
+
+
+
 
 /*Para colocar o corpo da pagina todo de uma unica cor, e na mesma fonte*/
 body {
     background-color: #DEDDDD   ;
-    font-family: "Poppins", sans-serif;
 }
 
 
@@ -51,20 +67,21 @@ nav ul :hover{ /*quando passa o mouse por cima ele fica diferent*/
 /*parte do meio Main texto*/
 
 #apresentacao {
+    font-family: "Poppins", sans-serif;
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    padding: 3rem;
+    justify-content: center;
+    padding: 80px;
 }
 
 #apresentacao h1 {
+    align-items: center; 
     font-size: 25px;
     text-align: end;
     margin-right: 20px; 
     font-weight:400;
 }
 #apresentacao strong {
-    font-size: 30px;
+    font-size: 32px;
 
 }
 /*parte do meio Main img*/
@@ -73,11 +90,20 @@ nav ul :hover{ /*quando passa o mouse por cima ele fica diferent*/
 
 }
 
+.logo-home h1 {
+    font-size: 40px !important;
+    font-family: 'Porter Sans Block', sans-serif;
+    color: #7D090B;
+    margin: 20px;
+    text-shadow: 3px 3px 5px rgba(83, 0, 0, 0.315);
+}
+
 
 /*Parte Destaque Pagina*/
 
 
 #destaques h2 {
+    font-family: "Poppins", sans-serif;
     margin: 50px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -115,69 +141,24 @@ nav ul :hover{ /*quando passa o mouse por cima ele fica diferent*/
 }
 
 
+/*ajusta pag pequena -- em teste 
+*/
 
-
-
-
-
-/*rodapé, unico em todo o site*/
-footer {
-    background: linear-gradient(90deg, #733929, #D96C4E);
-    color: white;
-    padding: 20px 20px;
-
-    font-family: 'Poppins', sans-serif;
+@media (max-width: 834px) {
+    #apresentacao {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
 
- 
-.footer-bloco {
-    display: flex;
-    flex-direction: row;  
-    align-items: center;
-    justify-content:space-around;
-    max-width: 1300px;
-    margin-inline: auto;   
-}
+@media (max-width: 700px) {
+    .livros { 
+        flex-direction: column;
+        align-items: center;
+    }
 
-
-.footer-coluna h4 {
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: medium;
-}
-
-
-.footer-coluna ul li {
-    margin-bottom: 5px;
-}
-
-.footer-coluna ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-}
-
-.footer-coluna ul li a:hover {
-    text-decoration:underline;
-}
-
-.redes-sociais {
-    display: flex;
-    gap: 10px;  
-}
-
-.redes-sociais a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.redes-sociais a:hover {
-    color: #140e64;  
-}
-
-.footer-footer {
-    text-align:center;
-    font-size: 14px;
-    margin: 20px;
+    #apresentacao {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }

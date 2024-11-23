@@ -1,0 +1,68 @@
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins&display=swap');
+
+/*redefindo as info geral da pag*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*modificando a "caixa" do header*/ 
+header {
+    font-family: "Poppins", sans-serif;
+    background-color: #DEDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 1px 0px #D96C4E;
+}
+
+/*atualizando a "logo", peguei a no cdn fontes e importei*/
+.logo h1 {
+    font-family: 'Porter Sans Block', sans-serif;
+    color: #7D090B;
+    font-weight: 500;
+    margin: 20px;
+    text-shadow: 3px 3px 5px rgba(83, 0, 0, 0.315);
+}
+
+/*Aqui estou atualizando a barra de nagevação "navbar"*/ 
+
+#navbar ul { /*atualizando a parte da lista*/
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 400;
+    gap: 120px;
+    margin: 2rem;
+}
+
+ /*atualizando a parte dos links*/
+#nav_list a {
+    color: #2a2a2a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*atualizando a parte dos links, mas quando o mouse passa por cima do que está escrito*/
+#nav_list a:hover { 
+    text-decoration: underline;
+    text-decoration-color: #7D090B;
+    text-decoration-thickness: 3px;
+}
+
+/*estou removendo o text decoration que eu coloquei acima, pois não quero que fique no icone, só no texto*/ 
+#nav_list li a i.fa-regular.fa-user:hover {
+    text-decoration: none;
+}
+
+/*aqui estou atualizando pra telas pequenas*/
+@media (max-width: 834px) {
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        font-size: 20px;
+    }
+}

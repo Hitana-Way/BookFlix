@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400;700&family=Poppins&display=swap');
+
+/*redefindo as info geral da pag*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*mudando o geral do rodapé*/
+footer {
+    background: linear-gradient(90deg, #733929, #D96C4E);
+    color: white;
+    padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+.footer-bloco {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content:space-around;
+    max-width: 1300px;
+    margin-inline: auto;   
+}
+
+
+/*atualizando as colunas do footer*/
+
+.footer-coluna h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+
+.footer-coluna ul li {
+    margin-bottom: 5px;
+}
+
+.footer-coluna ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-coluna ul li a:hover {
+    text-decoration:underline;
+}
+
+/*atualizando as informações da parte das redes sociais*/
+.redes-sociais {
+    display: flex;
+    gap: 10px;  
+}
+
+.redes-sociais a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover {
+    color: #140e64;  
+}
+
+.footer-footer {
+    text-align:center;
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+@media (max-width: 769px) {
+    .footer-bloco {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;   
+        max-width: 100%;   
+    }
+    
+    .footer-coluna h4 {
+        font-weight: 100;
+        font-size: 14px;   
+    }
+    
+    .footer-coluna {
+        margin-bottom: 20px;   
+    }
+
+    .footer-footer {
+        font-size: 12px;   
+    }
+
+    .redes-sociais {
+        gap: 15px;   
+    }
+}
