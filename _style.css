@@ -9,9 +9,23 @@
 
 
 
+/*alterações na pagina SOBRE*/
+#bloco-sobre{
+justify-content: space-around;
+align-items: center;
+display: flex;
+}
+#bloco-equipe{
+margin-left: 110px;
 
-
-
+}
+#equipe { 
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+margin-left: -100px;
+}
+/*---------------------------------------*/
 footer {
     background: linear-gradient(90deg, #733929, #D96C4E);
     color: white;
