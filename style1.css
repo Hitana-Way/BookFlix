@@ -1,0 +1,80 @@
+.titulo-autores {
+    text-align: center; /* Centraliza o texto dentro do h2 */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 auto; /* Garante centralização */
+    background-color: #f9f9f9;
+  }
+
+/* Geral da seção */
+#principais-autores {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    gap: 20px; /* Espaço entre os cartões */
+    justify-content: center; /* Centraliza os itens */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo de cada autor */
+  .autor {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(25% - 20px); /* Cada cartão ocupa 25% do espaço */
+    max-width: 280px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .autor:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagem do autor */
+  .autor-img img {
+    border-radius: 50%; /* Imagem circular */
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0 auto 10px; /* Centraliza e cria espaço inferior */
+    display: block;
+  }
+  
+  /* Nome do autor */
+  .autor-nome {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  /* Descrição do autor */
+  .autor-descricao {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 1200px) {
+    .autor {
+      width: calc(33.33% - 20px); /* 3 cartões por linha */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .autor {
+      width: calc(50% - 20px); /* 2 cartões por linha */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .autor {
+      width: 100%; /* 1 cartão por linha */
+    }
+  }
+  
