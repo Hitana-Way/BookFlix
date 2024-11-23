@@ -29,9 +29,9 @@
     <main>
 
         <section class="buscar">
-            <input type="text" placeholder="O que você está procurando?" aria-label="Buscar livros">
-            <button type="submit">
-                <img src="/imgs/buscar.png" width="20" height="20" alt="Ícone de busca">
+            <input class="buscar-input" type="text" placeholder="O que você está procurando?" aria-label="Buscar livros">
+            <button class="buscar-button" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </section>
 
@@ -46,36 +46,51 @@
         </nav>
 
         <section>
+            
             <div class="livro">
-                <img src="/imgs/PequenoPrincipe.png" with="300" height="400" alt="Capa O Pequeno Príncipe" class="capa">
-                <div class="informacoes">                    
-                    <div class="acoes">
-                        <button class="Favoritar"><img src="/imgs/logo_coracao.png" with="20" height="20" alt="Favoritar"></button>    
-                    </div>
-                    <h2>O Pequeno Príncipe</h2>
-                    <p>Edição Português por Antoine de Saint-Exupéry (Autor, ilustrador), Angelo das Neves (tradutor).</p>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <p> O Pequeno Príncipe foi publicado em 1943 e é uma das obras mais traduzidas e lidas do mundo. Escrito
+                
+                <img src="/imgs/PequenoPrincipe.png" width="300" height="400" alt="Capa O Pequeno Príncipe" class="capa">
+                <div class="informacoes">  
+                                
+                <button class="favoritar">
+                    <i class="fa-solid fa-heart"></i>
+                </button>     
+                    </button><h2>O Pequeno Príncipe</h2>
+
+                    <p><strong>Edição Português</strong> | por Antoine de Saint-Exupéry (Autor, ilustrador), Angelo das Neves (tradutor). <br></p>
+                    
+       <br>
+                <p>
+                    O Pequeno Príncipe foi publicado em 1943 e é uma das obras mais traduzidas e lidas do mundo. Escrito
                     por Antoine de Saint-Exupéry, o livro mistura elementos de fantasia e filosofia, explorando temas
                     como a amizade, o amor e a importância de ver com o coração. Originalmente escrito em francês, a
                     história foi inspirada pelas experiências do autor como piloto e suas reflexões sobre a natureza
                     humana e a infância. A obra continua sendo apreciada por leitores de todas as idades, tocando
-                    gerações com suas mensagens profundas e atemporais.</p>
-                <div class="acoes">
+                    gerações com suas mensagens profundas e atemporais.
+                </p>
+        <br>        
+                <section class="acoes">
                     <button>Leia online <i class="fas fa-book"></i></button>
                     <button>Audiobook <i class="fas fa-headphones"></i></button>
                     <button>Baixar <i class="fas fa-download"></i></button>
                     <button>Comentar <i class="fas fa-comment"></i></button>
+                </section>
+
+
+                <div class="avaliacao">
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="detalhes">Avaliações: 549  |  Comentários: 20</p>
                 </div>
+                
             </div>
         </section>
+        
 
     </main>
 

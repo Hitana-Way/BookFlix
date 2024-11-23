@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Barra de busca */
+.buscar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1px;
+    background-color: #DEDDDD;
+}
+
+/* Barra de busca - input */
+.buscar-input {
+    width: 100%;
+    max-width: 500px; /* Ajuste para telas pequenas */
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+/* Barra de busca - botão */
+.buscar-button {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: #67656e;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buscar-button:active {
+    color: #fcf6f6; 
+    transform: scale(0.95);
+}
+
+/* Menu do site */
+.menu {
+    background-color: #D96C4E;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* pro menu se reorganize em telas pequenas e não quebrar */
+}
+
+/* Menu - lista de itens */
+.menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-weight: 400;
+    gap: 50px;
+    margin: 8px;
+}
+
+/*os links*/
+.menu ul li a {
+    color: #3b3b3b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #000000;
+}
+
+/* Informações sobre o livro */
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* pra que ocupe o espaço restante */
+    justify-content: center;  
+}
+
+
+/* Estilo do livro */
+.livro {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    background-color: #c2c0c0;
+    border: 20px solid #DEDDDD;
+    padding: 20px;
+    flex-wrap: wrap; /*pra não "quebrar"*/
+    justify-content: center;
+}
+
+.capa {
+    margin: 20px;
+    max-width: 100%;
+    height: auto;
+    flex: 0 1 300px; 
+}
+
+/* Ações (botões) */
+.acoes {
+    display: flex; 
+    justify-content: center;   
+    gap: 10px;             
+    margin: 10px;  
+    flex-wrap: wrap; 
+}
+
+/* detalhes dos botões */
+.acoes button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 16px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); 
+    width: 100%; 
+    max-width: 200px; 
+    margin: 5px;
+}
+
+.acoes button:hover { 
+    color: #07002b;
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.acoes button:active {
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(0.90); 
+}
+
+
+/* Estrelas e informações sobre avaliação */
+.avaliacao i {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #a8a8a8;
+}
+
+.avaliacao i:hover {
+    color: #d3b532ef; 
+    cursor: pointer;  
+}
+
+.avaliacao i.active {
+    color: #d6b834ef; 
+}
+
+.detalhes {
+    color: #3b3b3b;
+    font-size: 15px;
+}
+
+.detalhes:hover {
+    text-decoration:underline;
+    cursor: pointer;  
+}
+
+/* Coração para  "favoritar" */
+.favoritar {
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+
+.favoritar i {
+    font-size: 26px;  
+    color: rgb(87, 19, 19);         
+}
+
+.favoritar:hover i {
+    color: #7c0101;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+
+/* Telas de até 834px */
+@media (max-width: 834px) {
+    .menu ul {
+        flex-direction: column; 
+        align-items: center;
+        gap: 30px; 
+        font-size: 20px; 
+    }
+
+    .livro {
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+
+    .capa {
+        width: 100%; 
+        height: auto;
+        min-width:none; 
+    }
+
+    .acoes button {
+        width: 100%; 
+    }
+
+    .avaliacao i {
+        font-size: 18px; 
+    }
+
+    .detalhes {
+        font-size: 14px; 
+    }
+}
