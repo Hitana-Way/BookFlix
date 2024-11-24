@@ -1,0 +1,63 @@
+/* Estilo para o aside (barra lateral de filtros) */
+
+.classificar {
+        display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.classificar label {
+    margin-right: 8px; /* Espaço entre o rótulo e o seletor */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+}
+  
+  .classificar select {
+    padding: 3px; /* Espaçamento interno no seletor */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 3px; /* Bordas arredondadas */
+}
+
+.filtro {
+    background-color: #fbeaea; /* Cor de fundo rosa claro */
+    margin: 10px; /* distância da margem externa */
+    padding: 10px; /* distância da margem interna */
+    width: 200px; /* largura do aside */
+    border-radius: 8px; /* arredondamento da borda */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* sombra no aside.. obs: testar mais escuro */
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Ajusta altura ao conteúdo */
+}
+
+.filtro h3 {
+    font-size: 18px;
+    color: #444; /* Cor do texto */
+    border-bottom: 1.5px solid #ddd; /* Linha */
+    padding-bottom: 5px; /* Espaço entre o texto e a linha */
+}
+
+.filtro h3:last-of-type {
+    border-bottom: none; /* Remove a linha do último título */
+}
+
+.filtro h3 a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Usa a cor do h3 */
+}
+
+.filtro ul {
+    list-style: none; /* Remove os marcadores */
+    padding: 0;
+    border-bottom: 1.5px solid #ddd; 
+    padding-bottom: 5px;
+}
+
+.filtro li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+  
+  .filtro input[type="checkbox"] {
+    margin-right: 10px;
+}
