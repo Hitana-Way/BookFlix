@@ -4,7 +4,10 @@
     display: flex;
     flex-direction: column;
     flex: 1; /* pra que ocupe o espaço restante */
-    justify-content: center;  
+    justify-content: center;
+    max-width: 1200px;  
+    
+    
 }
 
 
@@ -21,6 +24,7 @@
 }
 
 .capa {
+    
     margin: 20px;
     max-width: 100%;
     height: auto;
