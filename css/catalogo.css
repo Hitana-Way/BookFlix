@@ -1,4 +1,19 @@
 /* Estilo para o aside (barra lateral de filtros) */
+#blocão{
+    display: flex;
+}
+#catalogo-livros{
+    display: flex;
+    padding: 60px;
+    gap: 5rem;
+    justify-content: space-between;
+}
+#catalogo-livros2{
+    display: flex;
+    padding: 60px;
+    gap: 5rem;
+    justify-content: space-between;
+}
 
 .classificar {
         display: flex;
@@ -26,7 +41,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* sombra no aside.. obs: testar mais escuro */
     display: flex;
     flex-direction: column;
-    height: auto; /* Ajusta altura ao conteúdo */
+    height: 400px; /* Ajusta altura ao conteúdo */
 }
 
 .filtro h3 {
