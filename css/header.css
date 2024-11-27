@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 1px 1px 0px #D96C4E;
+    border-bottom: 2px solid #D96C4E;
 }
 
 /*atualizando a "logo", peguei a no cdn fontes e importei*/

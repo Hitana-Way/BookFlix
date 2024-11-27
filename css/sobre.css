@@ -9,14 +9,13 @@
 #bloco-sobre {
     padding-left: 140px;
     padding-right: 200px;
-    margin-top: 1px;
     justify-content: space-between;
     align-items: center;
     display: flex;
     background-color: #DEDDDD;
-    box-shadow: 0px 1px 1px 0px #D96C4E;
-    
+    border-bottom: 2px solid #D96C4E;
 }
+    
 #equipe { 
     background-color: #DEDDDD;
     padding-left: 140px;
@@ -26,12 +25,11 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    box-shadow: 0px 1px 1px 0px #D96C4E;
+    border-bottom: 2px solid #D96C4E;
     flex-wrap: wrap;
 }
 
 #descricao-equipe {
-    margin-top: 1px;
     background-color: #DEDDDD;
     width: 100%;
     padding-left: 140px;
