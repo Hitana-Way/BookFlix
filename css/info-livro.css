@@ -112,14 +112,8 @@
 
 
 
-/* Telas de até 834px */
+/* Telas de até 834px */ 
 @media (max-width: 834px) {
-    .menu ul {
-        flex-direction: column; 
-        align-items: center;
-        gap: 30px; 
-        font-size: 20px; 
-    }
 
     .livro {
         padding-left: 10px;

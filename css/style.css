@@ -90,3 +90,12 @@
     color: #000000;
 }
 
+
+@media (max-width: 835px) {
+    .menu ul {
+        flex-direction: column; 
+        align-items: center;
+        gap: 30px; 
+        font-size: 20px; 
+    }
+}
