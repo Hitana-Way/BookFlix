@@ -138,6 +138,9 @@ nav ul :hover{ /*quando passa o mouse por cima ele fica diferent*/
     height: auto;
     border-radius: 8px;
 }
+.livro img:hover {
+    transform: scale(1.09);  
+}
 
 .estrelas {
     margin-top: 10px;
