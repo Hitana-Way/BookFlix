@@ -109,7 +109,6 @@ input {
     cursor: pointer;
     text-align: center;
     margin-top: 40px;
-
 }
 
 
@@ -131,10 +130,36 @@ input {
     }
 
     .login, .cadastro {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-bottom: 20px;
         border-radius: 20px;
     }
-}
 
+    input {
+        background-color: #cfcfcf;
+        width: 88%;
+        height: 30px;
+        border-radius: 8px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    
+    }
+    
+   .login .btn-log, .cadastro .btn-log {
+        padding: 0;
+        width: 70%;
+        height: 35px;
+       
+    }
+    .cadastro .btn-log {
+        margin-left: 16%;
+    }
+    
+    .btn-log:hover {
+        transform: scale(1.05);
+        background-color: #072533;
+    }
+}
