@@ -2,7 +2,6 @@ main {
     background-color: #DEDDDD;
 }
 #Login-page{
-
     display:flex;
     padding: 100px;
     margin: 0 auto;
@@ -60,6 +59,7 @@ main {
     border-radius: 0px 20px 20px 0px;
 }
 
+
 .cadastro h2 {
     color: #000000;
     margin-top: 48px;
@@ -68,6 +68,10 @@ main {
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 40px;
+}
+
+.login, .cadastro {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -115,3 +119,22 @@ input {
    
     
 }
+
+
+@media (max-width: 768px) {
+    #Login-page {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+
+    .login, .cadastro {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+}
+

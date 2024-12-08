@@ -58,17 +58,93 @@ header {
     text-decoration: none;
 }
 
-/*aqui estou atualizando pra telas pequenas*/
-@media (max-width: 834px) {
-    #navbar ul {
-        
-        flex-direction: column;
-        align-items: center;
-        gap: 35px;
-        font-size: 20px;
+/*Adicinando um menu para paginas com tamanho menor*/
+.botao-menu {
+    display: none; /* Esconde o botão' */
+    cursor: pointer;
+    font-size: 30px; /* Tamanho do ícone */
+    color: #2a2a2a;
+    margin-right: 20px; /* Ajusta o espaço à direita */
+}
+
+.botao-menu:hover {
+    color: #7D090B; /* Efeito de hover */
+}
+
+.botao-iniciar {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    background: linear-gradient(90deg, #7C4535, #D96C4E 30%, #e98e74 50%, #D96C4E 70%, #7C4535);
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    width:120px;
+    height: 30px;
+    color: #FFFFFF;
+    font-weight:600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+.botao-iniciar:hover{
+    background: linear-gradient(90deg, #5E3028, #B85239 30%, #e27b68 50%, #B85239 70%, #5E3028);
+    transform: scale(1.07);
+    cursor: pointer 
+    
+}
+
+.botao-iniciar:active {
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(0.90); 
+}
+
+
+/* Ajustando para telas menores */
+@media (max-width: 865px) {
+    /* Exibe o botão em telas menores */
+    .botao-menu {
+        display: block;
     }
+
+    /* Esconde o menu por padrão */
+    #navbar ul {
+        display: none;
+        flex-direction: column;
+        align-items:center; /* Centraliza os links */
+        position: absolute; /* Posiciona abaixo do cabeçalho */
+        top:43px;
+        left: 0;
+        right: 0;
+        background-color: #DEDDDD; 
+       /*background: linear-gradient(180deg, #DEDDDD);*/
+
+        /*background-color: #383636;  */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);  
+        padding: 20px; 
+        gap: 20px;
+        border-radius: 0px 0px 20px 20px;  
+    }
+
+    /* Exibe o menu quando ativo */
+    #navbar ul.active {
+        display: flex;
+    }
+
+    /* Estiliza a logo */
     .logo h1 {
-        padding: 0px;
-        font-size: 150%;
+        padding: 0;
+        font-size: 145%; /* Tamanho ajustado */
+        text-align: center;
+    }
+
+    /* Ajusta os links */
+    #nav_list a {
+        font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+        color: #2a2a2a;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #nav_list a:hover {
+        color: #7D090B;
     }
 }
