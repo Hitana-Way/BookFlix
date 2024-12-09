@@ -35,7 +35,8 @@
     gap: 1rem;  
     justify-content: center;  
     flex-wrap: wrap;  
-    margin-top: 1rem;  
+    margin-top: auto;
+    align-items: baseline; 
 }
 
 .botao-livro {
@@ -79,7 +80,9 @@
 .classificar {
     display: flex;
     justify-content: flex-end;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 25px;
 }
 
 .classificar label {
@@ -169,5 +172,8 @@
     .catalogo-livros {
         gap: 8px; 
         padding: 8px; 
+    }
+    .filtro{
+        width: 45%;
     }
 }
