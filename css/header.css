@@ -71,14 +71,16 @@ header {
     color: #7D090B; /* Efeito de hover */
 }
 
+
+/*Botão utilizado para a tela "Inicio"*/
 .botao-iniciar {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     background: linear-gradient(90deg, #7C4535, #D96C4E 30%, #e98e74 50%, #D96C4E 70%, #7C4535);
-    padding: 4px;
+    padding: 0px;
     border: none;
     border-radius: 10px;
-    width:120px;
+    width:100px;
     height: 30px;
     color: #FFFFFF;
     font-weight:600;
@@ -96,6 +98,7 @@ header {
     box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
     transform: scale(0.90); 
 }
+
 
 
 /* Ajustando para telas menores */

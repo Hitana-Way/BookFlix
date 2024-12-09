@@ -62,7 +62,8 @@ footer {
 }
 
 .redes-sociais a:hover {
-    color: #140e64;  
+    color: #140e64;
+    transform: scale(1.2);  
 }
 
 .footer-footer {
