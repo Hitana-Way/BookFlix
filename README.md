@@ -25,7 +25,7 @@
 - **Clara Azevedo**  
 - **Hitana Rodrigues** 
 - **José Fernando**  
-  
+
 
 ## 🎨 Design do Projeto
 
