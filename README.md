@@ -23,10 +23,8 @@
 ##  Equipe 👥 
 
 - **Clara Azevedo**  
-- **Gabriel Silva**  
 - **Hitana Rodrigues** 
 - **José Fernando**  
-- **Samuel Nascimento**
   
 
 ## 🎨 Design do Projeto
