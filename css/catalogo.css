@@ -1,4 +1,6 @@
-
+body {
+    background-color: #DEDDDD;
+}
 #blocao{
     display: flex;
     gap: 10px;
@@ -16,7 +18,7 @@
 .livro-catalogo {
     flex: 1 1 calc(20% - 20px);
     max-width: calc(20% - 20px);
-    border: 1px solid #eceaea;
+    border: 1px solid #c4c4c4;
     padding: 1rem;
     text-align: center;
     display: flex;
@@ -29,6 +31,10 @@
 .livro-catalogo img {
     border-radius: 8px;
     max-width: 100%; 
+}
+
+.livro-catalogo img:hover {
+    transform: scale(1.05);
 }
 .botoes-livro {
     display: flex;   
@@ -64,10 +70,11 @@
     color: #5a5a5a;
 }
 
+ 
 .botao-livro p {
     font-size: 14px;  
     margin: 0;  
-    text-align: center;  
+    text-align: center;
 }
 
 .botao-livro:hover {

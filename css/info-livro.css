@@ -24,12 +24,18 @@
 }
 
 .capa {
-    
     margin: 20px;
     max-width: 100%;
     height: auto;
     flex: 0 1 300px; 
+    transition: transform 0.3s ease;
 }
+
+.capa:hover {
+    transform: scale(1.01);  
+}
+
+
 
 /* Ações (botões) */
 .acoes {
@@ -105,12 +111,15 @@
 }
 
 .favoritar:hover i {
-    color: #7c0101;
+    color: #920202;
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.04);
+    text-shadow: 0  0px 20px rgba(245, 4, 84, 0.39);
 }
 
-
+.favoritar:active i {
+    transform: scale(0.95);  
+}
 
 /* Telas de até 834px */ 
 @media (max-width: 834px) {
