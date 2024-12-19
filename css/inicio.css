@@ -78,16 +78,17 @@ body {
     justify-content: center;
     gap: 40px;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 .livro {
     width: 150px;
+    height: 300px;
     text-align: center;
 }
 
 .livro img {
     width: 100%;
-    height: auto;
     border-radius: 8px;
 }
 .livro img:hover {

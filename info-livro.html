@@ -52,49 +52,34 @@
             </ul>
         </nav>
 
-        <section>
-            
+        <section id="livro-info">
             <div class="livro">
-                
-                <img src="./imgs/PequenoPrincipe.png" width="300" height="400" alt="Capa O Pequeno Príncipe" class="capa">
-                <div class="informacoes">  
-                                
-                <button class="favoritar">
-                    <i class="fa-regular fa-heart"></i>
-                </button>   
-                    </button><h2>O Pequeno Príncipe</h2>
-
-                    <p><strong>Edição Português</strong> | por Antoine de Saint-Exupéry (Autor, ilustrador), Angelo das Neves (tradutor). <br></p>
-                    
-       <br>
-                <p>
-                    O Pequeno Príncipe foi publicado em 1943 e é uma das obras mais traduzidas e lidas do mundo. Escrito
-                    por Antoine de Saint-Exupéry, o livro mistura elementos de fantasia e filosofia, explorando temas
-                    como a amizade, o amor e a importância de ver com o coração. Originalmente escrito em francês, a
-                    história foi inspirada pelas experiências do autor como piloto e suas reflexões sobre a natureza
-                    humana e a infância. A obra continua sendo apreciada por leitores de todas as idades, tocando
-                    gerações com suas mensagens profundas e atemporais.
-                </p>
-        <br>        
-                <section class="acoes">
-                    <button>Leia online <i class="fas fa-book"></i></button>
-                    <button>Audiobook <i class="fas fa-headphones"></i></button>
-                    <button>Baixar <i class="fas fa-download"></i></button>
-                    <button>Comentar <i class="fas fa-comment"></i></button>
-                </section>
-
-
-                <div class="avaliacao">
-                    <div class="estrelas">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <img src="${livro.imagem}" width="300" height="400" alt="Capa ${livro.titulo}" class="capa">
+                <div class="informacoes">
+                    <button class="favoritar">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <h2>${livro.titulo}</h2>
+                    <p><strong>Edição Português</strong> | por ${livro.autor} (Autor), ${livro.tradutor} (Tradutor). <br></p>
+                    <p>${livro.descricao}</p>
+                    <br><br>a
+                    <section class="acoes">
+                        <button>Leia online <i class="fas fa-book"></i></button>
+                        <button>Audiobook <i class="fas fa-headphones"></i></button>
+                        <button>Baixar <i class="fas fa-download"></i></button>
+                        <button>Comentar <i class="fas fa-comment"></i></button>
+                    </section>
+                    <div class="avaliacao">
+                        <div class="estrelas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="detalhes">Avaliações: ${livro.avaliacoes} | Comentários: ${livro.comentarios}</p>
                     </div>
-                    <p class="detalhes">Avaliações: 549  |  Comentários: 20</p>
                 </div>
-                
             </div>
         </section>
         

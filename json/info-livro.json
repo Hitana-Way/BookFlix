@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "titulo": "O Pequeno Principe",
+        "autor": "Antoine de Saint-Exupéry",
+        "tradutor": "Angelo das Neves",
+        "imagem": "./imgs/PequenoPrincipe.png",
+        "descricao": "O Pequeno Príncipe foi publicado em 1943 e é uma das obras mais traduzidas e lidas do mundo. Escrito por Antoine de Saint-Exupéry, o livro mistura elementos de fantasia e filosofia, explorando temas como a amizade, o amor e a importância de ver com o coração. Originalmente escrito em francês, a história foi inspirada pelas experiências do autor como piloto e suas reflexões sobre a natureza humana e a infância. A obra continua sendo apreciada por leitores de todas as idades, tocando gerações com suas mensagens profundas e atemporais. ",
+        "avaliacoes": 549,
+        "comentarios": 20
+    },
+    {
+        "id": 2,
+        "titulo": "Mais Esperto que o Diabo",
+        "autor": "Napoleon Hill",
+        "tradutor": "Antonio C. de Azevedo",
+        "imagem": "./imgs/mais_esperto.jpg",
+        "descricao": "Escrito por Napoleon Hill, 'Mais Esperto que o Diabo' é um livro que explora os mecanismos mentais que impedem o sucesso. Através de uma conversa fictícia com o Diabo, Hill revela como o medo, a procrastinação e a dúvida podem nos dominar, retardando nossa evolução. Com ensinamentos sobre o poder da mente, a obra busca ajudar o leitor a entender e superar os obstáculos internos, incentivando a ação decisiva para alcançar grandes objetivos. Com uma abordagem única e desafiadora, o livro se mantém relevante ao oferecer conselhos sobre como viver de forma plena e realizar o próprio potencial.",
+        "avaliacoes": 450,
+        "comentarios": 15
+    },
+    {
+        "id": 3,
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "tradutor": "Leonardo Nogueira",
+        "imagem": "./imgs/hobbit.jpg",
+        "descricao": "O Hobbit, escrito por J.R.R. Tolkien, narra a jornada de Bilbo Bolseiro, um hobbit que se vê envolvido em uma missão para recuperar um tesouro roubado. Ao longo da viagem, ele enfrenta dragões, trolls e criaturas míticas, descobrindo forças e coragens que não sabia possuir. A história é uma celebração da amizade, da coragem e da aventura, com um toque de magia e sabedoria. O livro se encaixa no universo maior da Terra-média, criando um dos maiores épicos de fantasia da literatura mundial, com uma trama envolvente e rica em lições de vida.",
+        "avaliacoes": 1023,
+        "comentarios": 35
+    },
+    {
+        "id": 4,
+        "titulo": "Cem Anos de Solidão",
+        "autor": "Gabriel García Márquez",
+        "tradutor": "Gregory Rabassa",
+        "imagem": "./imgs/100_anos_solidao.jpeg",
+        "descricao": "Considerado um dos maiores romances do século 20, 'Cem Anos de Solidão' de Gabriel García Márquez conta a saga da família Buendía na fictícia Macondo. A obra mistura realismo mágico com temas universais como a solidão, o amor e o tempo, criando uma narrativa envolvente e atemporal. Cada geração da família enfrenta as mesmas tragédias e ilusões, refletindo sobre a repetição da história humana e a busca incansável por sentido. A obra é uma análise profunda da condição humana, explorando as conexões entre passado, presente e futuro, com uma escrita deslumbrante e inesquecível.",
+        "avaliacoes": 893,
+        "comentarios": 45
+    },
+    {
+        "id": 5,
+        "titulo": "Desbloqueie o Poder da Sua Mente",
+        "autor": "John Kehoe",
+        "tradutor": "Renata Pereira",
+        "imagem": "./imgs/Desbloq-poder-mente.png",
+        "descricao": "John Kehoe compartilha, em 'Desbloqueie o Poder da Sua Mente', estratégias simples e poderosas para desbloquear o potencial da mente humana. O autor explora como utilizar o poder da mente para transformar nossa vida pessoal e profissional, alcançar nossos objetivos e superar limitações internas. Com práticas eficazes e acessíveis, o livro oferece uma abordagem transformadora para desenvolver a confiança, a criatividade e o sucesso em todas as áreas da vida. As técnicas apresentadas visam aumentar o foco, a disciplina mental e o bem-estar, criando mudanças positivas e sustentáveis no comportamento e na mentalidade.",
+        "avaliacoes": 432,
+        "comentarios": 22
+    },
+    {
+        "id": 6,
+        "titulo": "O Médico e o Monstro",
+        "autor": "Robert Louis Stevenson",
+        "tradutor": "Paulo Rocco",
+        "imagem": "./imgs/medico_monstro.jpg",
+        "descricao": "Em 'O Médico e o Monstro', Robert Louis Stevenson apresenta uma história sobre a dualidade da natureza humana. O Dr. Jekyll, respeitável e moral, cria uma fórmula capaz de libertar seu lado mais sombrio, transformando-se no terrível Edward Hyde. A trama, cheia de tensão psicológica, questiona os limites da moralidade, da identidade e da repressão, oferecendo uma reflexão profunda sobre os aspectos ocultos de nossa própria psique. A história é uma análise do conflito interno entre o bem e o mal, expondo os perigos da busca por poder sobre a natureza humana e as consequências do abandono de nossa verdadeira essência.",
+        "avaliacoes": 620,
+        "comentarios": 18
+    },
+    {
+        "id": 7,
+        "titulo": "O Rei do Inverno",
+        "autor": "Bernard Cornwell",
+        "tradutor": "Carlos Alberto de Lima",
+        "imagem": "./imgs/rei_do_inverno.jpg",
+        "descricao": "Em 'O Rei do Inverno', Bernard Cornwell reinterpreta a lenda do Rei Artur, oferecendo uma visão mais sombria e realista dessa história lendária. A obra descreve batalhas sangrentas, intrigas políticas e uma luta pela sobrevivência em um mundo medieval cruel e imprevisível. Com personagens complexos e cenários vívidos, Cornwell dá uma nova perspectiva sobre a fundação do mito de Artur, explorando o heroísmo, a traição e o destino de um líder forjado em tempos de guerra.",
+        "avaliacoes": 710,
+        "comentarios": 30
+    },
+    {
+        "id": 8,
+        "titulo": "Meridiano de Sangue",
+        "autor": "Cormac McCarthy",
+        "tradutor": "José Geraldo Vieira",
+        "imagem": "./imgs/meridiano-de-sangue.png",
+        "descricao": "Meridiano de Sangue', de Cormac McCarthy, é uma narrativa violenta e poética sobre a luta pela sobrevivência em um Oeste selvagem e desolado do século 19. O livro segue um homem em sua jornada implacável, enquanto o cenário de brutalidade e conflitos revela a dura realidade da época. McCarthy explora a condição humana de forma sombria, mergulhando nas forças que moldam o comportamento humano, enquanto os personagens se enfrentam não apenas uns aos outros, mas também a própria natureza selvagem.",
+        "avaliacoes": 820,
+        "comentarios": 50
+    },
+    {
+        "id": 9,
+        "titulo": "O Rei Amarelo",
+        "autor": "Robert W. Chambers",
+        "tradutor": "César R. de A. Moreira",
+        "imagem": "./imgs/o-rei-amarelo.png",
+        "descricao": "'Em 'O Rei Amarelo', Robert W. Chambers cria uma série de contos interligados que exploram o terror psicológico e a loucura. A história gira em torno de um misterioso livro que provoca a perda de sanidade daqueles que o leem. A atmosfera de mistério e horror permeia as páginas, com uma sensação crescente de angústia e impotência. A obra de Chambers foi uma grande influência para o gênero de horror cósmico, inspirando autores como H.P. Lovecraft a explorar temas de desesperança e a fragilidade da mente humana.",
+        "avaliacoes": 670,
+        "comentarios": 28
+    },
+    {
+        "id": 10,
+        "titulo": "Alice no País do Quantum",
+        "autor": "Rui de Oliveira",
+        "tradutor": "Não Aplicável",
+        "imagem": "./imgs/alice.jpeg",
+        "descricao": "Alice no País do Quantum, de Rui de Oliveira, oferece uma reinterpretação fascinante do clássico 'Alice no País das Maravilhas', agora imerso em conceitos da física quântica. A obra mistura fantasia e ciência de forma acessível, explorando os mistérios do universo através dos olhos curiosos de Alice. Ao longo da jornada, o livro explica conceitos quânticos complexos, oferecendo uma nova perspectiva sobre o mundo e desafiando a maneira como entendemos a realidade e o espaço-tempo, tudo de uma forma envolvente e divertida.",
+        "avaliacoes": 525,
+        "comentarios": 17
+    }
+]
