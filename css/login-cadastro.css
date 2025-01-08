@@ -1,0 +1,239 @@
+main {
+    background-color: #DEDDDD;
+}
+
+#Login-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.login {
+    text-align: center;
+    background: linear-gradient(90deg, #753A2A, #9F5C4B, #cf7961);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+.login h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.login p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+ 
+
+.cadastro {
+    background: linear-gradient(90deg, #8a8a8a, #7a7a7a, #6a6a6a);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.cadastro h2 {
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    margin-bottom: 20px;
+} 
+
+label {
+    font-size: 14px;
+    color: #0F3F55;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: #cfcfcf;
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 6px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+
+ 
+
+input:focus {
+    outline: none;
+    border-color: #09374d;
+}
+
+input::placeholder {
+    color: #8d8d8f;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #7f8c8d;
+}
+
+.btn-log {  /*login e cadastro*/
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 7px;
+    background: linear-gradient(75deg, #072533, #1a4f63, #072533);
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-log:hover {
+    transform: scale(1.03);
+    background: linear-gradient(75deg, #123846, #072533, #103947);
+    
+}
+.btn-log:active {
+    transform: scale(0.99);
+    background: linear-gradient(75deg, #123846, #072533, #103947);
+    
+}
+
+.fas.fa-lock, .fas.fa-envelope, .fas.fa-user {
+    color: #52758a;  
+}
+
+
+
+
+/*-------------------------FORMULARIO-------------------------*/
+
+/*  Com erro */
+input.error {
+    border: 1px solid #970000;
+    background-color: #fccddb;
+    color: #970000;
+}
+
+/* Corretos */
+input.correct {
+    border: 1px solid #084d18;
+    background-color: #c6ecd3;
+    color: #074207;
+}
+
+/* Mostrar  o helper-text */
+.visible {
+    display: block;
+}
+
+.helper-text {
+    position: absolute;
+    color: #350000;
+    font-size: 15px;
+    display: none;
+    padding: 1px;
+}
+
+input.error ~ .helper-text,
+input.error + .helper-text {
+    display: block;
+    color: #350000;
+}
+
+ 
+@media screen and (max-width: 768px) {
+    #Login-page {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .login, .cadastro {
+        width: 100%;  
+        max-width: 100%;  
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;  
+    }
+
+    .login h2, .cadastro h2 {
+        font-size: 22px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px 10px 10px 35px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .btn-log {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .input-container {
+        margin-bottom: 20px;
+    }
+
+    .helper-text {
+        font-size: 14px;
+    }
+}
+
+/* Para telas menores que 480px (smartphones em modo retrato) */
+@media screen and (max-width: 480px) {
+    .login h2, .cadastro h2 {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 13px;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .btn-log {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .helper-text {
+        font-size: 13px;
+    }
+
+    .login, .cadastro {
+        width: 100%;
+        padding: 15px;
+    }
+}

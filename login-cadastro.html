@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login-cadastro.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/header.js" defer ></script>
+    <script src="./js/login-cadastro.js" defer ></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+          <h1>BookFlix</h1>
+        </div>
+        <div class="botao-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav id="navbar">
+          <ul id="nav_list">
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="catalogo.html">Biblioteca</a></li>
+            <li><a href="login-cadastro.html"><i class="fa-regular fa-user"></i> Entrar</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+      <main>
+        <div class="container">
+            <section id="Login-page">
+                <!-- Formulário da parte de Login/ Entrar -->
+                <div class="login">
+                    <h2>Bem-vindo de volta!</h2>
+                    <p>Para acessar sua conta, faça login com seus dados.</p>
+                    <form id="formLogin">
+                        <div class="input">
+                            <label for="loginEmail">E-mail:</label>
+                            <div class="input-container">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="email" id="loginEmail" placeholder="Digite seu e-mail" required>
+                                <p id="loginEmail-helper" class="helper-text">Insira um e-mail válido.</p>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="loginSenha">Senha:</label>
+                            <div class="input-container">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" name="senha" id="loginSenha" placeholder="Digite sua senha" required>
+                            </div>
+                        </div>
+                        <button class="btn-log" type="submit">Entrar</button>
+                    </form>
+                </div>
+    
+                <!-- Formulário de criar conta -->
+                <div class="cadastro">
+                    <h2>Criar uma conta</h2>
+                    <form id="formCadastro">
+                        <div class="input">
+                            <label for="nome">Nome completo:</label>
+                            <div class="input-container">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                                <p id="nome-helper" class="helper-text"> 
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="cadEmail">E-mail:</label>
+                            <div class="input-container">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="email" id="cadEmail" placeholder="Digite seu e-mail" required>
+                                <p id="cadEmail-helper" class="helper-text"> 
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="cadSenha">Senha:</label>
+                            <div class="input-container">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" name="senha" id="cadSenha" placeholder="Digite sua senha" required>
+                                <p id="cadSenha-helper" class="helper-text"> 
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="confirmacao_senha">Confirmar Senha:</label>
+                            <div class="input-container">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" name="confirmacao_senha" id="confirmacao_senha" placeholder="Confirme sua senha" required>
+                                <p id="confirmacao_senha-helper" class="helper-text"> 
+                            </div>
+                        </div>
+                        <button class="btn-log" type="submit">Inscreva-se</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bloco">
+
+            <div class="footer-coluna">
+                <h4>Sobre o Bookflix</h4>
+                <ul>
+                    <li><a href="#">Nossa Missão</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-coluna">
+                <h4>Ajuda</h4>
+                <ul>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-coluna">
+                <h4>Políticas e Termos</h4>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+
+    
+            <div class="footer-coluna">
+                <h4>Redes Sociais</h4>
+                <div class="redes-sociais">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Hitana-Way/BookFlix"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-footer">
+            <p>Desenvolvido como parte do projeto Proz-Talento Cloud.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
