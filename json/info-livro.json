@@ -98,5 +98,15 @@
         "descricao": "Alice no País do Quantum, de Rui de Oliveira, oferece uma reinterpretação fascinante do clássico 'Alice no País das Maravilhas', agora imerso em conceitos da física quântica. A obra mistura fantasia e ciência de forma acessível, explorando os mistérios do universo através dos olhos curiosos de Alice. Ao longo da jornada, o livro explica conceitos quânticos complexos, oferecendo uma nova perspectiva sobre o mundo e desafiando a maneira como entendemos a realidade e o espaço-tempo, tudo de uma forma envolvente e divertida.",
         "avaliacoes": 525,
         "comentarios": 17
+    },
+    {
+        "id": 11,
+        "titulo": "Quarto de Despejo",
+        "autor": "Carolina Maria de Jesus",
+        "tradutor": "Não Aplicável",
+        "imagem": "./imgs/quarto_despejo.jpg",
+        "descricao": "Quarto de Despejo, escrito por Carolina Maria de Jesus, é um relato impactante sobre a vida nas favelas de São Paulo durante os anos 1950. O livro, composto a partir de diários pessoais da autora, apresenta uma narrativa crua e realista das dificuldades enfrentadas por ela como mulher negra, mãe solteira e catadora de papel. A obra é uma poderosa denúncia social que oferece um olhar direto e sincero sobre a pobreza, a desigualdade e a resiliência humana, marcando um dos grandes marcos da literatura brasileira.",
+        "avaliacoes": 1420,
+        "comentarios": 320
     }
 ]
