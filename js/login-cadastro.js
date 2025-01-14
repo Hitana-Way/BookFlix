@@ -17,7 +17,7 @@ function validarCampo(input, helper, validar, mensagemErro) {
     }
 }
 
-// Ao chamar a função validarCampo vamos vou passar como parametro o "Input", "o Helper", "o nome da função criada abaixo", e a mensagem de erro);
+// Ao chamar a função validarCampo vamos passar como parametro o "Input", "o Helper", "o nome da função criada abaixo", e a mensagem de erro);
 
 // abaixo uma função que vai ser utilizada como validação 
 function validarNome(valor) {
@@ -104,14 +104,36 @@ function validarEmail(valor) {
  
 //-----------------------------
 
-function mostrarPopup(input, label) {
+//function mostrarPopup(input, label) {
     // Mostrar popup ao focar no campo
-    input.addEventListener("focus", function() {
-        label.classList.add("required-popup");
-    });
+    //input.addEventListener("focus", function() {
+    //    label.classList.add("required-popup");
+    //});
 
     // Ocultar popup ao sair do campo
-    input.addEventListener("blur", function() {
-        label.classList.remove("required-popup");
-    });
-}
+    //input.addEventListener("blur", function() {
+   //     label.classList.remove("required-popup");
+  //  });
+//}
+
+// ---- Mensagem para finalizar / enviar o formulário. 
+
+// Login
+let formLogin = document.getElementById("formLogin");  
+formLogin.addEventListener("submit", (e) => {
+    // Se for correto exibe a msg abaixo, sem necessidade de validação por causa do required, no html 
+    if (formLogin.checkValidity()) {
+        alert("Login realizado com sucesso!");
+    }
+});
+
+// Cadastro
+let formCadastro = document.getElementById("formCadastro");  
+formCadastro.addEventListener("submit", (e) => {
+    // Se for correto exibe a msg abaixo, sem necessidade de validação por causa do required, no html 
+    if (formCadastro.checkValidity()) {
+        alert("Cadastro realizado com sucesso!");
+    }
+});
+
+
