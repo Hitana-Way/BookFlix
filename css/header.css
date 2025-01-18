@@ -46,7 +46,7 @@ header {
     text-decoration: none;
 }
 
-/*atualizando a parte dos links, mas quando o mouse passa por cima do que está escrito*/
+/*atualizando a parte dos links,  quando o mouse passa por cima do que está escrito*/
 #nav_list a:hover { 
     text-decoration: underline;
     text-decoration-color: #7D090B;

@@ -51,26 +51,27 @@ fetch('./json/info-livro.json')  // Caminho para o arquivo JSON
             
             // Adiciona as informações na página
             document.getElementById('livro-info').innerHTML = livroInfo;
-        }
-    });
 
 
-// -------------------------------BOTÃO FAVORITAR -------------------- //
-//BOTÃO AINDA ESTÁ EM TESTE //
+
+        // -------------------------------BOTÃO FAVORITAR -------------------- //
  
-// Captura o botão de favoritar com o icone de coração
-let coracao = document.querySelector(".favoritar i");
+        // Captura o botão de favoritar com o icone de coração
+        let coracao = document.querySelector(".favoritar i");
 
-// Função para favoritar o livro
-function favoritar (){ 
-    if (coracao.classList.contains("fa-regular", "fa-heart")) {
-        coracao.classList.remove("fa-regular", "fa-heart");        
-        coracao.classList.add("fa-solid", "fa-heart"); 
-    } else {
-        coracao.classList.remove("fa-solid", "fa-heart");           
-        coracao.classList.add("fa-regular", "fa-heart");            
+        // Função para favoritar o livro
+        function favoritar (){ 
+            if (coracao.classList.contains("fa-regular", "fa-heart")) {
+             coracao.classList.remove("fa-regular", "fa-heart");        
+                coracao.classList.add("fa-solid", "fa-heart"); 
+            } else {
+             coracao.classList.remove("fa-solid", "fa-heart");           
+             coracao.classList.add("fa-regular", "fa-heart");            
+            }
+        }
+
+        // Evento de clique no ícone de favoritar
+        coracao.addEventListener("click", favoritar);
+
     }
-}
-
-// Evento de clique no ícone de favoritar
-coracao.addEventListener("click", favoritar);
+});

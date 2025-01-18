@@ -8,7 +8,7 @@
     box-sizing: border-box;
     
 }
-/*Atualizar a img de fundo depois, a img atual não fica boa*/
+
  body {
     background-image: linear-gradient(30deg, #733929, #9f6d53, #bfa692, #c0a997,#DEDDDD);
     /*background-image: url();  
